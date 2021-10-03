@@ -37,3 +37,30 @@
     }
   }
 }
+
+/* HERO */
+.hero {
+  height: 90vh;
+
+  &-container {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+    .title {
+      width: 100%;
+      margin-top: -10vh;
+
+      span {
+        display: block;
+        font-size: 10rem;
+        text-transform: uppercase;
+        font-style: italic;
+        line-height: 0.9;
+        text-align: center;
+      }
+    }
+  }
+}
