@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: var(--color-cream);
+  font-family: 'Helvetica', sans-serif;
+  color: var(--color-primary);
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Misto', sans-serif;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
