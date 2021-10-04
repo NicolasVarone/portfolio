@@ -1,3 +1,5 @@
+import gsap from 'gsap'
+
 /* CURSOR */
 let mouse = document.querySelector('.cursor')
 let mouseText = document.querySelector('.cursor-text')
@@ -20,3 +22,18 @@ const activeCursor = (e) => {
 
 window.addEventListener('mousemove', cursor)
 window.addEventListener('mouseover', activeCursor)
+
+/* HERO TITLE ANIMATION */
+gsap.from('.line1', {
+  duration: 2,
+  x: -1500,
+  delay: 0.2,
+  ease: 'Back.easeOut',
+})
+
+gsap.from('.line2', {
+  duration: 2,
+  x: 1500,
+  delay: 0.2,
+  ease: 'Back.easeOut',
+})

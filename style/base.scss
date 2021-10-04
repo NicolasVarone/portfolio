@@ -2,22 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: none;
 }
 
 html,
 body {
-  background-color: var(--color-cream);
-  font-family: 'Helvetica', sans-serif;
-  color: var(--color-primary);
+  background-color: var(--color-hero-primary);
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 300;
+  color: var(--color-hero-secondary);
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 7rem;
   font-weight: 400;
+  line-height: 0.8;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 a {
