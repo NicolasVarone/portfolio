@@ -66,7 +66,7 @@
 
 /* ABOUT */
 .about {
-  padding-top: 6rem;
+  padding-top: 8rem;
 
   &-title {
     margin-bottom: 4rem;
@@ -74,5 +74,22 @@
 
   &-description {
     padding-right: 40rem;
+  }
+}
+
+/* SERVICES */
+.services {
+  padding-top: 8rem;
+
+  &-content {
+    text-align: right;
+
+    .services-title {
+      margin-bottom: 4rem;
+    }
+
+    .services-description {
+      padding-left: 40rem;
+    }
   }
 }
