@@ -2,19 +2,34 @@
 .cursor {
   width: 3rem;
   height: 3rem;
-  border: 1px solid var(--color-hero-secondary);
+  border: 1px solid var(--color-white);
   border-radius: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transition-property: background, transform;
   transform-origin: 100% 90%;
   z-index: 3;
 
   &.active {
-    background: var(--color-hero-secondary);
     transform: scale(2);
+  }
+
+  &.purple-color {
+    background: var(--color-purple);
+  }
+
+  &.red-color {
+    background: var(--color-red);
+  }
+
+  &.orange-color {
+    background: var(--color-orange);
+  }
+
+  &.green-color {
+    background: var(--color-green);
   }
 
   &-text {
@@ -23,6 +38,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 0.5rem;
-    color: var(--color-hero-primary);
+    color: var(--color-white);
   }
 }
